@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text-center {
+  text-align: center !important;
+}
+.short-line-red {
+  display: inline-block;
+  width: 6rem;
+  height: 3px;
+  background: #f38181;
+  margin-top: 4rem;
+}
+.intro h6 {
+  font: 100 2.4rem "Kaushan Script", cursive;
+}
+.intro h3 {
+  font: bold 3rem Montserrat;
+  margin-top: 2rem;
+}
+p.text {
+  margin:4.5rem 12rem 9rem;
+  font: 100 1.5rem/2.4rem Roboto;
+  color: #999;
+  text-align: center;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.w-100 {
+  width: 100%;
+}
+
+.font-weight-normal {
+  font-weight: 100;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-purple {
+  color: #fff;
+  background-color: #6e59ce;
+  border-color: #6e59ce;
+}
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-white {
+  color: #fff;
+  border: 2px solid #fff;
+  font:bold 14px Montserrat;
+  transition: all 300ms;
+}
+.btn-white:hover {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+.bg-light {
+  background-color: #f2f0fb;
+}
+.bg-white {
+  background-color: #fff;
+}
